@@ -1,0 +1,12 @@
+Source: ros-turbulent-theora-image-transport
+Section: misc
+Priority: extra
+Maintainer: Julius Kammerl <jkammerl@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), libogg-dev, libtheora-dev, ros-turbulent-ament-cmake, ros-turbulent-ament-lint-common, ros-turbulent-builtin-interfaces, ros-turbulent-cv-bridge, ros-turbulent-image-transport, ros-turbulent-pluginlib, ros-turbulent-rclcpp, ros-turbulent-rosidl-default-generators, ros-turbulent-std-msgs, ros-turbulent-ros-workspace, ros-turbulent-rmw-connext-cpp, ros-turbulent-rmw-fastrtps-cpp, ros-turbulent-rmw-implementation, ros-turbulent-rmw-opensplice-cpp, ros-turbulent-rosidl-typesupport-connext-c, ros-turbulent-rosidl-typesupport-connext-cpp, ros-turbulent-rosidl-typesupport-opensplice-c, ros-turbulent-rosidl-typesupport-opensplice-cpp
+Homepage: http://www.ros.org/wiki/image_transport_plugins
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-theora-image-transport
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libogg-dev, libtheora-dev, ros-turbulent-builtin-interfaces, ros-turbulent-cv-bridge, ros-turbulent-image-transport, ros-turbulent-pluginlib, ros-turbulent-rclcpp, ros-turbulent-rosidl-default-runtime, ros-turbulent-std-msgs, ros-turbulent-ros-workspace
+Description: Theora_image_transport provides a plugin to image_transport for transparently sending an image stream encoded with the Theora codec.

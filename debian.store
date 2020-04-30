@@ -1,1 +1,1 @@
-{"trim": "", "base": "0f40bf5", "trimbase": "", "parent": "debian/eloquent/theora_image_transport", "previous": "256fe70"}
+{"base": "c1f60fc", "parent": "debian/verystable/theora_image_transport", "previous": "09c3acc", "trim": "", "trimbase": ""}

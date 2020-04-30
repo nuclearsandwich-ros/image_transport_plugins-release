@@ -1,0 +1,12 @@
+Source: ros-verystable-theora-image-transport
+Section: misc
+Priority: optional
+Maintainer: Julius Kammerl <jkammerl@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), libogg-dev, libtheora-dev, ros-verystable-ament-cmake, ros-verystable-ament-lint-common, ros-verystable-builtin-interfaces, ros-verystable-cv-bridge, ros-verystable-image-transport, ros-verystable-pluginlib, ros-verystable-rclcpp, ros-verystable-rosidl-default-generators, ros-verystable-std-msgs, ros-verystable-ros-workspace, ros-verystable-rmw-connext-cpp, ros-verystable-rmw-fastrtps-cpp, ros-verystable-rmw-implementation, ros-verystable-rmw-opensplice-cpp, ros-verystable-rosidl-typesupport-connext-c, ros-verystable-rosidl-typesupport-connext-cpp, ros-verystable-rosidl-typesupport-opensplice-c, ros-verystable-rosidl-typesupport-opensplice-cpp
+Homepage: http://www.ros.org/wiki/image_transport_plugins
+Standards-Version: 3.9.2
+
+Package: ros-verystable-theora-image-transport
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libogg-dev, libtheora-dev, ros-verystable-builtin-interfaces, ros-verystable-cv-bridge, ros-verystable-image-transport, ros-verystable-pluginlib, ros-verystable-rclcpp, ros-verystable-rosidl-default-runtime, ros-verystable-std-msgs, ros-verystable-ros-workspace
+Description: Theora_image_transport provides a plugin to image_transport for transparently sending an image stream encoded with the Theora codec.

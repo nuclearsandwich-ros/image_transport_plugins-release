@@ -1,1 +1,1 @@
-{"trim": "", "base": "e59b4b3", "trimbase": "", "parent": "debian/eloquent/compressed_image_transport", "previous": "4eaa208"}
+{"base": "8deb279", "parent": "debian/verystable/compressed_image_transport", "previous": "6aad08b", "trim": "", "trimbase": ""}

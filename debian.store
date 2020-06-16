@@ -1,1 +1,1 @@
-{"trim": "", "base": "63350ca", "trimbase": "", "parent": "release/foxy/compressed_image_transport", "previous": "6551495"}
+{"base": "f0bc36e", "parent": "release/rolling/compressed_image_transport", "previous": "d7d9d3d", "trim": "", "trimbase": ""}
